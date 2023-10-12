@@ -1,0 +1,27 @@
+para fazer o arquivo rodar, ir no navegador, pesquisar: http://localhost:3000/
+
+para rodar o nodemon, ir em package.json, em script:
+"scripts": {
+    "dev": "nodemon server.js"
+  }
+
+Observação: se retira o test.
+
+Terminal: npm run dev
+
+para fazer o arquivo rodar, ir no navegador, pesquisar: http://localhost:3000/
+
+para rodar o nodemon, ir em package.json, em script:
+"scripts": {
+    "dev": "nodemon server.js"
+  }
+
+Observação: se retira o test.
+
+Terminal: npm run dev
+
+---------------------------------------------------------------------------------------------
+ADICIONANDO CSS 
+index.js:
+  app.use(express.static('public'))//Pasta para disponibilizar os arquivos CSS
+Agora se deve criar a pasta públic, a subpasta css e o arquivo style.css

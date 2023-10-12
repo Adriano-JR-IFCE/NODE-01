@@ -1,0 +1,28 @@
+<div class="container p-5"> <!-- Cria um contêiner com preenchimento -->
+    <div class="text-center"> <!-- Define um elemento centralizado -->
+        <!-- Inclui uma imagem com classe de bordas arredondadas -->
+        <!-- Use {{imgPath}} para inserir o caminho da imagem dinamicamente -->
+        <img src="imagens/pessoas.png" class="rounded p-3" alt="...">
+        
+        <div class="form-group">
+            <!-- Cria um campo de entrada de email -->
+            <input type="email" class="form-control mx-auto text-center col-6" id="email" aria-describedby="emailHelp" placeholder="Seu e-mail">
+            <!-- Pequeno texto explicativo -->
+            <small id="emailHelp" class="form-text text-muted text-center">Nunca vamos compartilhar seu email.</small> 
+        </div>
+        <div class="form-group">
+            <!-- Cria um campo de entrada de senha -->
+            <input type="password" class="form-control mx-auto text-center col-6" id="senha" placeholder="Senha"> <!-- Cria um campo de entrada de senha -->
+        </div>
+        <div class="form-group form-check">
+            <!-- Cria uma caixa de seleção (checkbox) -->
+            <input type="checkbox" class="form-check-input" id="Mostra-senha">
+            <!-- Rótulo da caixa de seleção -->
+            <label class="form-check-label" for="Mostra-senha">Mostrar senha</label> 
+        </div>
+        <div class="container">
+            <!-- Cria um botão de login -->
+            <a class="btn btn-primary" href="/user/home" role="button" id="login">Login</a> 
+        </div>
+    </div><br>
+</div>
